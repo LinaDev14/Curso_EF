@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CursoEntityFramework.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CursoEntityFramework.Data
 {
@@ -10,6 +11,7 @@ namespace CursoEntityFramework.Data
         }
 
         // write models
+        public DbSet<Category> Category { get; set; }
 
     }
 }
