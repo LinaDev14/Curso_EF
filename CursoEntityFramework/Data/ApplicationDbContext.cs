@@ -20,5 +20,7 @@ namespace CursoEntityFramework.Data
          * 2. Cuando agregue una nueva propiedad (crear un campo nuevo en la bd)
          * 3. Modifique un valor de campo en la clase (modificar campo en bd)
          */
+
+        public DbSet<Article> Article { get; set; }
     }
 }
